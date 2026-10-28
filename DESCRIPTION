@@ -1,0 +1,35 @@
+Package: ASmiR
+Type: Package
+Title: Prediction of Abiotic Stress-Specific miRNAs in Plants
+Version: 0.1.1
+Authors@R: c(
+    person(given = "Upendra Kumar", family = "Pradhan",
+           role = c("aut", "cre"),
+           email = "upendra.iasri@icar.org.in",
+           comment = c(ORCID = "0000-0001-8768-879X")),
+    person(given = "Prabina Kumar", family = "Meher",
+           role = "aut")
+    )
+Description: Provides functions for predicting plant microRNAs (miRNAs)
+    associated with cold, drought, heat, and salt stress using the ASmiR
+    machine learning framework. Implements PseKNC feature generation and
+    stress-specific support vector machine models described by Pradhan et
+    al. (2023), "ASmiR: a machine learning framework for prediction of
+    abiotic stress-specific miRNAs in plants", Functional & Integrative
+    Genomics, 23(2), article 92, <doi:10.1007/s10142-023-01014-2>.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: Biostrings, e1071, stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
+SystemRequirements: Python (>= 3.7)
+NeedsCompilation: no
+Packaged: 2026-10-16 14:51:20 UTC; dell
+Author: Upendra Kumar Pradhan [aut, cre] (ORCID:
+    <https://orcid.org/0000-0001-8768-879X>),
+  Prabina Kumar Meher [aut]
+Maintainer: Upendra Kumar Pradhan <upendra.iasri@icar.org.in>
+Repository: CRAN
+Date/Publication: 2026-10-28 11:20:32 UTC
